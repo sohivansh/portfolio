@@ -1,3 +1,19 @@
-.navbar-custom{
-    color: #B85C38;
+.navbar{
+    background-color: #B85C38 !important;
+    
+}
+.navbar .navbar-brand{
+    color: #2D2424 !important;
+    font-family: 'Satisfy' !important;
+    font-size: 22px !important;
+}
+
+.navbar .nav-item{
+    color: #2D2424 !important;
+    font-family: 'Satisfy' !important;
+    font-size: 22px !important;
+}
+
+body{
+    background-color: #E0C097;
 }
