@@ -1,19 +1,38 @@
 .navbar{
     background-color: #B85C38 !important;
     
+    
 }
 .navbar .navbar-brand{
     color: #2D2424 !important;
     font-family: 'Satisfy' !important;
-    font-size: 22px !important;
+    font-size: 32px !important;
 }
 
 .navbar .nav-item{
     color: #2D2424 !important;
     font-family: 'Satisfy' !important;
-    font-size: 22px !important;
+    font-size: 32px !important;
 }
 
 body{
     background-color: #E0C097;
+}
+
+#avatar{
+    height: 330px;
+    width: 330px !important;
+
+}
+
+p{
+    display: inline-block;
+    font-family: 'Satisfy' !important;
+    padding-right: 2px;
+    padding-left: 2px;
+}
+
+#mainc{
+    height: 400px !important;
+    margin-top: 20px !important;
 }
