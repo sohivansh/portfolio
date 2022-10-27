@@ -19,20 +19,99 @@ body{
     background-color: #E0C097;
 }
 
+
 #avatar{
     height: 330px;
     width: 330px !important;
+    
 
 }
 
 p{
     display: inline-block;
     font-family: 'Satisfy' !important;
-    padding-right: 2px;
-    padding-left: 2px;
+    
+    color: #2D2424 !important;
+    font-size: 45px;
+}
+#main-text{
+    padding-left: 100px !important;
+}
+
+
+.left-text{
+    padding-top: 30px;
+    padding-left: 250px;
+
 }
 
 #mainc{
     height: 400px !important;
     margin-top: 20px !important;
 }
+
+h3,form{
+    float: left;
+    margin : 2px;
+    padding-top: 175px;
+    padding-left: 2px;
+}
+
+h3{
+    font-family: 'Satisfy' !important;
+    font-size: 45px;
+    position: absolute;
+    left: 5px;
+
+}
+
+button{
+    font-family: 'Satisfy' !important;
+    font-size: 22px !important;
+    background-color: #B85C38 !important;
+    color: #2D2424 !important;
+
+}
+
+form{
+    position: absolute;
+    left: 250px;
+    height: 55px !important;
+}
+
+h2{
+    font-family: 'Satisfy' !important;
+    font-size: 4vw;
+    color: #2D2424 !important;
+}
+
+
+
+
+h1{
+    font-family: 'Satisfy' !important;
+    font-size: 45px;
+    color: #2D2424 !important;
+
+}
+#about{
+    font-family: 'Satisfy' !important;
+    font-size: 30px;
+    color: #2D2424 !important;
+    
+    
+    
+
+
+}
+
+.font-style{
+    font-family: 'Satisfy' !important;
+    color: #2D2424 !important;
+
+}
+
+
+
+
+

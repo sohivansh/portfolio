@@ -1,2 +1,6 @@
 Flask
 Flask dependencies
+Barba.js
+Node.js
+Npm(bundeled with node.js)
+Anime.js

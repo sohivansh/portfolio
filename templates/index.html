@@ -7,10 +7,29 @@
     
     <img align="left" id="avatar" src="/static/avatar.png" class="img-responsive">
             
-        <p>
-            Hello, My name is Vansh Sohi
+        <p class="main-text">
+            Hello, I am <b>Vansh Sohi</b>,<br>
+            an aspiring computer science <br>
+            student about to enter<br>
+            first year of college.
         </p>
            
+
+    
+        
+        <div class="container-sm">
+            <h3>
+                Like this site : <br>
+                Total Likes: {{likes}} 
+            </h3>
+            <form method="post" action="/like">
+                <button class="btn btn-primary" type="submit">Like</button>
+
+            </form>
+
+            
+        </div>
+    
         
         
     
