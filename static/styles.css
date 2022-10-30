@@ -1,3 +1,5 @@
+
+
 .navbar{
     background-color: #B85C38 !important;
     
@@ -13,7 +15,13 @@
     color: #2D2424 !important;
     font-family: 'Satisfy' !important;
     font-size: 32px !important;
+    display: inline-block !important;
 }
+
+.navbar .nav-item:hover{
+    font-style:oblique;
+}
+
 
 body{
     background-color: #E0C097;
@@ -35,8 +43,11 @@ p{
     font-size: 45px;
 }
 #main-text{
-    padding-left: 100px !important;
+    padding-left: 10vw !important;
 }
+
+
+
 
 
 .left-text{

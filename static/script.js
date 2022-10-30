@@ -1,11 +1,16 @@
-import anime from 'animejs/lib/anime.es.js';
-
-swiper = document.getElementById("swipe");
-anime({
-    targets : '.main-text',
-    translateX : 250,
-    duration : 3000
-
+let on = true
+var nam = document.getElementById('name');
+nam.addEventListener("click",function(){
+    if (on == true){        
+        nam.innerHTML = 'a learner and ';
+        on = false;
+    }
+    else{
+        nam.innerHTML = 'Vansh Sohi,';
+        on = true;
+    }
 });
+
+
 
         

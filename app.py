@@ -1,4 +1,3 @@
-from tempfile import tempdir
 from flask import Flask, request, redirect
 from flask import render_template
 import sqlite3
@@ -21,9 +20,7 @@ def about():
 
 @app.route("/work")
 def work():
-    cur.execute("SELECT work FROM works")
-    works = cur.fetchone()
-    return render_template("work.html",works = works)
+    return render_template("work.html")
 
 @app.route("/contact")
 def contact():
