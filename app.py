@@ -2,6 +2,10 @@ from flask import Flask, request, redirect
 from flask import render_template
 import sqlite3
 
+
+
+
+
 con = sqlite3.connect('database.db',check_same_thread=False)
 cur = con.cursor() 
 app = Flask(__name__)
